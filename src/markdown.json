@@ -1,0 +1,42 @@
+{
+  "name": "markdown",
+  "dsl": {
+    "config": { "update_multi": true },
+    "i18n_elements": {
+      "zh_cn": [
+        {
+          "tag": "column_set",
+          "flex_mode": "none",
+          "columns": [
+            {
+              "tag": "column",
+              "width": "weighted",
+              "vertical_align": "top",
+              "background_style": "grey-100",
+              "elements": [
+                {
+                  "tag": "markdown",
+                  "content": "${content}",
+                  "text_align": "left",
+                  "text_size": "normal"
+                }
+              ],
+              "weight": 1
+            }
+          ],
+          "margin": "16px 0px 0px 0px"
+        }
+      ]
+    },
+    "i18n_header": {}
+  },
+  "variables": [
+    {
+      "type": "markdown",
+      "apiName": "var_m2diczmm",
+      "name": "content",
+      "desc": "",
+      "mockData": "**awa**"
+    }
+  ]
+}

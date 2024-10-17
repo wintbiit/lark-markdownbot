@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "request": "launch",
+            "name": "Launch Program",
+            "type": "node",
+            "program": "${workspaceFolder}/main.ts",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "runtimeExecutable": "C:\\Users\\WintBit\\.deno\\bin\\deno.EXE",
+            "runtimeArgs": [
+                "run",
+                "--unstable",
+                "--inspect-wait",
+                "--allow-all",
+                "src/main.ts"
+            ],
+            "attachSimplePort": 9229
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-env --allow-read --watch src/main.ts",
+    "start": "deno run --allow-net --allow-env --allow-read src/main.ts",
+    "cache": "deno cache --unstable --reload src/main.ts",
+    "fmt": "deno fmt src"
+  },
+  "imports": {
+    "https://esm.sh/v135/axios@0.28.1/denonext/axios.mjs": "https://esm.sh/v135/axios@1.4.0/denonext/axios.mjs"
+  }
+}
